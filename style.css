@@ -1,3 +1,62 @@
 body {
-  background-color: grey;
-} 
+  font: 100% Helvetica, sans-serif;
+  background-color: rgba(103, 152, 154, 0.3);
+  height:100%;
+  margin: 0px;
+}
+
+#page_header {
+  text-align: center;
+  text-transform: capitalize;
+  /* padding: 15px 0px; */
+}
+
+.jumbotron {
+  margin-bottom: 10px;
+}
+
+#page_header > h1 {
+  font-size: 5em;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#social i {
+  padding: 0px 20px;
+}
+
+#hobbies > ul {
+  /* list-style-type: none;
+  padding: 0px; */
+}
+
+#sac {
+  color: #5A2D81;
+}
+
+#CFC {
+  color: #034694;
+}
+
+#page_footer nav > ul > li {
+  display: inline;
+  margin: 0 20px 0 0;
+  padding: 0;
+}
+
+#page_footer {
+  position: fixed;
+  clear:both;
+  text-align: center;
+  width:100%;
+  display:block;
+  bottom: 0;
+  background-color: #7c7c7c;
+}
+
+#user_pic {
+  border-radius: 100%;
+}

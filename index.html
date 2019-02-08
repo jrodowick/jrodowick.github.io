@@ -6,20 +6,104 @@
           href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
           crossorigin="anonymous">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Jacob Rodowick</title>
   </head>
   <body>
 
-    <div class="jumbotron">
+    <header id="page_header" class="jumbotron">
       <h1>Jacob Rodowick</h1>
-    </div>
+      <p>I made this website to practice my web development skills and to
+          share a little bit about myself
+      </p>
+    </header>
+
+    <main id="page_main">
+      <div class="container">
+        <section id="personal_info">
+          <h2>About me</h2><hr>
+          <div class="row">
+            <div class="col-sm-4">
+              <img id="user_pic" src="images/profile_pic.jpg"
+                     alt=""
+                     width="200px"
+                     height="200px">
+              <div id="social">
+                <a href="https://www.facebook.com/jacob.rodowick" target="_blank">
+                  <i class="fa fa-facebook-square" style="font-size:36px"></i>
+                </a>
+                <a href="https://twitter.com/jacobrodowick" target="_blank">
+                  <i class="fa fa-twitter" style="font-size:36px"></i>
+                </a>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <h3><u>Education</u></h3>
+              <div id="education">
+                <p>Graduated from <strong>CSU Chico</strong> December 2018 <br>
+                <strong>B.S. Computer Science</strong></p>
+                <p>Butte Community College</p>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <h3><u>Hobbies</u></h3>
+              <div id="hobbies">
+                <p><strong>Sports Fanatic</strong></p>
+                <p>I love watching and playing basketball and soccer</p>
+                <p>Lifelong fan of the</p>
+                <ul>
+                  <li><span id="sac">Sacramento Kings</span></li>
+                  <li><span id="CFC">Chelsea FC<span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="container">
+        <br><br>
+        <section id="project_info">
+          <h2>Projects</h2><hr>
+          <div class="row">
+            <div class="col-sm-6">
+              <h2>Get Active, Go Play</h2>
+              <p>Django web app</p>
+              <p>Worked on <strong>Frontend + Backend</strong></p>
+              <p>This web app was designed to connect with people in your local
+                 area to meet up and play pick-up sports.  It uses Google Maps
+                 Javascript API and geolation to provide a map of locations to
+                 play at.</p>
+            </div>
+            <div class="col-sm-6">
+              <h2>What Can I Cook?</h2>
+              <p>Django web app</p>
+              <p>Worked on <strong>Frontend</strong></p>
+            </div>
+          </div>
+        </section>
+
+      </div>
+    </main>
+
+    <footer id="page_footer">
+      <p>Thanks for visiting!</p>
+      <nav id="footer_nav">
+        <ul>
+          <li><a href="#">Github</a></li>
+          <li><a href="#">Twitter</a></li>
+          <li><a href="#">Facebook</a></li>
+        </ul>
+      </nav>
+    </footer>
 
 
 
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
             crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
             integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
@@ -27,5 +111,14 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
             integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
             crossorigin="anonymous"></script>
+    <script type="text/javascript" src="index.js"></script>
   </body>
 </html>
+<!-- <img id="taylor_pic" src="images/taylor.jpg"
+      alt=""
+      width="100px"
+      height="100px">
+<img id="greg_pic" src="images/greg.jpg"
+      alt=""
+      width="100px"
+      height="100px"> -->

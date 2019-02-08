@@ -2,6 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet"
           href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
@@ -25,11 +26,11 @@
         <section id="personal_info">
           <h2>About me</h2><hr>
           <div class="row">
-            <div class="col-sm-4">
+            <div class="col">
               <img id="user_pic" src="images/profile_pic.jpg"
                      alt=""
-                     width="200px"
-                     height="200px">
+                     width="200"
+                     height="200">
               <div id="social">
                 <a href="https://www.facebook.com/jacob.rodowick" target="_blank">
                   <i class="fa fa-facebook-square" style="font-size:36px"></i>
@@ -39,7 +40,7 @@
                 </a>
               </div>
             </div>
-            <div class="col-sm-4">
+            <div class="col">
               <h3><u>Education</u></h3>
               <div id="education">
                 <p>Graduated from <strong>CSU Chico</strong> December 2018 <br>
@@ -47,7 +48,7 @@
                 <p>Butte Community College</p>
               </div>
             </div>
-            <div class="col-sm-4">
+            <div class="col">
               <h3><u>Hobbies</u></h3>
               <div id="hobbies">
                 <p><strong>Sports Fanatic</strong></p>
@@ -55,7 +56,7 @@
                 <p>Lifelong fan of the</p>
                 <ul>
                   <li><span id="sac">Sacramento Kings</span></li>
-                  <li><span id="CFC">Chelsea FC<span></li>
+                  <li><span id="CFC">Chelsea FC</span></li>
                 </ul>
               </div>
             </div>
@@ -67,7 +68,7 @@
         <section id="project_info">
           <h2>Projects</h2><hr>
           <div class="row">
-            <div class="col-sm-6">
+            <div class="col-lg-6">
               <h2>Get Active, Go Play</h2>
               <p>Django web app</p>
               <p>Worked on <strong>Frontend + Backend</strong></p>
@@ -75,11 +76,16 @@
                  area to meet up and play pick-up sports.  It uses Google Maps
                  Javascript API and geolation to provide a map of locations to
                  play at.</p>
+                 <img src="images/GAGP.jpg" alt="">
             </div>
-            <div class="col-sm-6">
+            <div class="col-lg-6">
               <h2>What Can I Cook?</h2>
               <p>Django web app</p>
               <p>Worked on <strong>Frontend</strong></p>
+              <p>This was a school project for a software engineering class.
+                 Our group built an app to help users find recipes they can
+                 make based on ingredients they have in their kitchen.</p>
+                 <img src="images/WCIC.jpg" alt="">
             </div>
           </div>
         </section>
@@ -89,13 +95,6 @@
 
     <footer id="page_footer">
       <p>Thanks for visiting!</p>
-      <nav id="footer_nav">
-        <ul>
-          <li><a href="#">Github</a></li>
-          <li><a href="#">Twitter</a></li>
-          <li><a href="#">Facebook</a></li>
-        </ul>
-      </nav>
     </footer>
 
 
@@ -111,7 +110,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
             integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
             crossorigin="anonymous"></script>
-    <script type="text/javascript" src="index.js"></script>
+    <script src="index.js"></script>
   </body>
 </html>
 <!-- <img id="taylor_pic" src="images/taylor.jpg"

@@ -1,3 +1,8 @@
+html {
+  margin:0px;
+  box-sizing: inherit;
+}
+
 body {
   font: 100% Helvetica, sans-serif;
   background-color: rgba(103, 152, 154, 0.3);
@@ -16,13 +21,13 @@ body {
 }
 
 #page_header > h1 {
-  font-size: 5em;
+  font-size: 3em;
 }
 
-main {
+/* .col {
   display: flex;
   flex-wrap: wrap;
-}
+} */
 
 #social i {
   padding: 0px 20px;
@@ -41,13 +46,18 @@ main {
   color: #034694;
 }
 
-#page_footer nav > ul > li {
+#project_info img {
+  height: inherit;
+  width: inherit;
+}
+
+/* #page_footer nav > ul > li {
   display: inline;
   margin: 0 20px 0 0;
   padding: 0;
-}
+} */
 
-#page_footer {
+/* #page_footer {
   position: fixed;
   clear:both;
   text-align: center;
@@ -55,8 +65,14 @@ main {
   display:block;
   bottom: 0;
   background-color: #7c7c7c;
-}
+} */
 
 #user_pic {
   border-radius: 100%;
+  /* width: 80%;
+  height: 80%; */
+}
+
+.row {
+  margin:0px;
 }

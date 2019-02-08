@@ -76,7 +76,7 @@ $(function() {
 
 
 $(function() {
-  var user_pic = $('img')
+  var user_pic = $('#user_pic')
   user_pic.on('mouseover', function() {
     $(this).animate({
       width: '+=35px',

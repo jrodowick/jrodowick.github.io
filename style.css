@@ -47,8 +47,8 @@ body {
 }
 
 #project_info img {
-  height: inherit;
-  width: inherit;
+  height: auto;
+  width: 100%;
 }
 
 /* #page_footer nav > ul > li {

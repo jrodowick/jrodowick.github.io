@@ -1,41 +1,31 @@
 html {
-  margin:0px;
-  box-sizing: inherit;
+  margin:0;
 }
 
 body {
-  font: 100% Helvetica, sans-serif;
   background-color: rgba(103, 152, 154, 0.3);
+  font: 100% Helvetica, sans-serif;
   height:100%;
-  margin: 0px;
+  margin: 0;
 }
 
-#page_header {
-  text-align: center;
-  text-transform: capitalize;
-  /* padding: 15px 0px; */
-}
+/* div.container {
+  margin-bottom: 15%;
+} */
 
 .jumbotron {
   margin-bottom: 10px;
+  text-align: center;
+  text-transform: capitalize;
 }
 
-#page_header > h1 {
+.jumbotron > h1 {
   font-size: 3em;
 }
 
-/* .col {
-  display: flex;
-  flex-wrap: wrap;
-} */
-
-#social i {
+#social a {
   padding: 0px 20px;
-}
-
-#hobbies > ul {
-  /* list-style-type: none;
-  padding: 0px; */
+  font-size: 36px;
 }
 
 #sac {
@@ -49,6 +39,10 @@ body {
 #project_info img {
   height: auto;
   width: 100%;
+}
+
+#url {
+  text-decoration: line-through;
 }
 
 /* #page_footer nav > ul > li {
@@ -73,6 +67,20 @@ body {
   height: 80%; */
 }
 
+/* footer {
+  background-color: #0B0A0A;
+  bottom: 0;
+  color: white;
+  font-size: 1em;
+  font-weight: bold;
+  left: 0;
+  margin-top: 15%;
+  padding-bottom: 0;
+  position: relative;
+  text-align: center;
+  width: 100%;
+} */
+
 .row {
-  margin:0px;
+  margin:0;
 }

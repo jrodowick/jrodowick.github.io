@@ -3,84 +3,74 @@ html {
 }
 
 body {
-  background-color: rgba(103, 152, 154, 0.3);
+  background-color: #FFFFFF;
   font: 100% Helvetica, sans-serif;
   height:100%;
   margin: 0;
 }
 
-/* div.container {
-  margin-bottom: 15%;
-} */
+h2 {
+  color: #477D87;
+  font-size: 2em;
+}
 
 .jumbotron {
-  margin-bottom: 10px;
+  background-image: url(images/header.jpg);
+  background-size: cover;
+  background-color: black;
+  color: white;
+  margin-bottom: 20px;
+  padding-bottom: 130px;
   text-align: center;
   text-transform: capitalize;
 }
 
-.jumbotron > h1 {
-  font-size: 3em;
+.jumbotron h1 {
+  font-size: 4em;
 }
 
-#social a {
+.jumbotron p {
+  font-size: 2em;
+}
+
+.personal img {
+  border-radius: 100%;
+}
+
+.social a {
   padding: 0px 20px;
   font-size: 36px;
 }
 
-#sac {
+.sac {
   color: #5A2D81;
 }
 
-#CFC {
+.chelsea {
   color: #034694;
 }
 
-#project_info img {
+.greg img {
+  border-radius: 0;
+  margin: 0 20px;
+  height:200px;
+  width: 200px;
+  transition: .5s;
+}
+
+.greg img:hover {
+  transform: scale(1.1);
+}
+
+.projects {
+  margin: 0 0 20px 0;
+}
+
+.projects img {
   height: auto;
   width: 100%;
 }
 
-#url {
+.inactive {
   text-decoration: line-through;
-}
-
-/* #page_footer nav > ul > li {
-  display: inline;
-  margin: 0 20px 0 0;
-  padding: 0;
-} */
-
-/* #page_footer {
-  position: fixed;
-  clear:both;
-  text-align: center;
-  width:100%;
-  display:block;
-  bottom: 0;
-  background-color: #7c7c7c;
-} */
-
-#user_pic {
-  border-radius: 100%;
-  /* width: 80%;
-  height: 80%; */
-}
-
-/* footer {
-  background-color: #0B0A0A;
-  bottom: 0;
-  color: white;
-  font-size: 1em;
-  font-weight: bold;
-  left: 0;
-  margin-top: 15%;
-  padding-bottom: 0;
-  position: relative;
-  text-align: center;
-  width: 100%;
-} */
-
-.row {
-  margin:0;
 }

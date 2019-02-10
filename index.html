@@ -22,7 +22,7 @@
     </header>
 
     <main id="page_main">
-      <div class="container">
+      <div class="container personal">
         <section id="personal_info">
           <h2>About me</h2><hr>
           <div class="row">
@@ -31,7 +31,7 @@
                      alt=""
                      width="200"
                      height="200">
-              <div id="social">
+              <div class="social">
                 <a href="https://www.facebook.com/jacob.rodowick" target="_blank" class="fa fa-facebook-square"></a>
                 <a href="https://twitter.com/jacobrodowick" target="_blank" class="fa fa-twitter"></a>
               </div>
@@ -42,6 +42,7 @@
                 <p>Graduated from <strong>CSU Chico</strong> December 2018 <br>
                 <strong>B.S. Computer Science</strong></p>
                 <p>Butte Community College</p>
+                <p>Paradise High School</p>
               </div>
             </div>
             <div class="col-12 col-sm-6 col-md-4">
@@ -51,12 +52,13 @@
                 <p>I love watching and playing basketball and soccer</p>
                 <p>Lifelong fan of the</p>
                 <ul>
-                  <li><span id="sac">Sacramento Kings</span></li>
-                  <li><span id="CFC">Chelsea FC</span></li>
+                  <li><span class="sac">Sacramento Kings</span></li>
+                  <li><span class="chelsea">Chelsea FC</span></li>
                 </ul>
               </div>
             </div>
           </div>
+          <br>
         </section>
       </div>
       <div class="container">
@@ -64,10 +66,10 @@
         <section id="project_info">
           <h2>Projects</h2><hr>
           <div class="row">
-            <div class="col-lg-6">
+            <div class="col-lg-6 projects">
               <h2>Get Active, Go Play</h2>
               <p>Django web app</p>
-              <span>URL: </span><a id="url">https://getactivegoplay.com</a>
+              <span>URL: </span><a href="#" class="inactive">https://getactivegoplay.com</a>
                  <strong>Not currently hosted</strong>
               <p>Worked on <strong>Frontend + Backend</strong></p>
               <p>This web app was designed to connect with people in your local
@@ -76,7 +78,7 @@
                  play at.</p>
                  <img src="images/GAGP.jpg" alt="">
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 projects">
               <h2>What Can I Cook?</h2>
               <p>Django web app</p>
               <span>URL: </span><a href="https://wcic.divisionc.com" target="_blank">https://wcic.divisionc.com</a>
@@ -88,7 +90,6 @@
             </div>
           </div>
         </section>
-
       </div>
     </main>
 
@@ -107,11 +108,3 @@
     <script src="index.js"></script>
   </body>
 </html>
-<!-- <img id="taylor_pic" src="images/taylor.jpg"
-      alt=""
-      width="100px"
-      height="100px">
-<img id="greg_pic" src="images/greg.jpg"
-      alt=""
-      width="100px"
-      height="100px"> -->

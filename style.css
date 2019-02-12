@@ -14,6 +14,7 @@ h2 {
   font-size: 2em;
 }
 
+/* HEADER */
 .jumbotron {
   background-image: url(images/header.jpg);
   background-size: cover;
@@ -25,14 +26,16 @@ h2 {
   text-transform: capitalize;
 }
 
-.jumbotron h1 {
+.jumbotron > h1 {
   font-size: 4em;
 }
 
-.jumbotron p {
+.jumbotron > p {
   font-size: 2em;
 }
+/* END HEADER */
 
+/* PERSONAL INFO */
 .personal img {
   border-radius: 100%;
 }
@@ -49,19 +52,9 @@ h2 {
 .chelsea {
   color: #034694;
 }
+/* END PERSONAL INFO */
 
-.greg img {
-  border-radius: 0;
-  margin: 0 20px;
-  height:200px;
-  width: 200px;
-  transition: .5s;
-}
-
-.greg img:hover {
-  transform: scale(1.1);
-}
-
+/* PROJECT INFO */
 .projects {
   margin: 0 0 20px 0;
 }
@@ -74,3 +67,4 @@ h2 {
 .inactive {
   text-decoration: line-through;
 }
+/* END PROJECT INFO */

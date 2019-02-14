@@ -37,6 +37,7 @@ h2 {
 
 /* PERSONAL INFO */
 .personal img {
+  border: 5px solid lightblue;
   border-radius: 100%;
   width:200px;
   height:200px;

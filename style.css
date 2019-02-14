@@ -45,6 +45,10 @@ h2 {
   font-size: 36px;
 }
 
+.social a:hover {
+  text-decoration: none;
+}
+
 .sac {
   color: #5A2D81;
 }

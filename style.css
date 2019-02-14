@@ -38,11 +38,13 @@ h2 {
 /* PERSONAL INFO */
 .personal img {
   border-radius: 100%;
+  width:200px;
+  height:200px;
 }
 
 .social a {
-  padding: 0px 20px;
-  font-size: 36px;
+  padding: 0px 40px;
+  font-size: 56px;
 }
 
 .social a:hover {
@@ -61,6 +63,13 @@ h2 {
 /* PROJECT INFO */
 .projects {
   margin: 0 0 20px 0;
+}
+
+.projects:hover {
+  -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+  -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+  -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+  box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
 }
 
 .projects img {

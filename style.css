@@ -23,7 +23,6 @@ h2 {
   margin-bottom: 20px;
   padding-bottom: 130px;
   text-align: center;
-  text-transform: capitalize;
 }
 
 .jumbotron > h1 {
@@ -31,7 +30,7 @@ h2 {
 }
 
 .jumbotron > p {
-  font-size: 2em;
+  font-size: 1.5em;
 }
 /* END HEADER */
 

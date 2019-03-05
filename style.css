@@ -45,7 +45,7 @@ h2 {
 
 .social a {
   padding: 0px 40px;
-  font-size: 56px;
+  font-size: 20px;
 }
 
 .social a:hover {
@@ -86,12 +86,14 @@ h2 {
 /* FOOTER */
 footer {
   text-align: center;
-  background: -webkit-linear-gradient(top, #7abcff 0%,#60abf8 44%,#4096ee 100%); /* Chrome10+,Safari5.1+ */
-  padding: 40px 0;
+  background: -webkit-linear-gradient(top,#D1CECE 44%, #A09F9F 100%); /* Chrome10+,Safari5.1+ */
+  padding: 30px 0;
   margin: 0;
+  font-size: 1em;
+  width: 100%;
 }
 
-footer > ul > li {
+.list {
   list-style-type: none;
 }
 /* END FOOTER */

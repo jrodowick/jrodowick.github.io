@@ -30,81 +30,112 @@
     </header>
 
     <main id="page_main">
-      <div class="container personal">
-        <section id="personal_info">
-          <h2>About me</h2><hr>
-          <div class="row">
-            <div class="col-12 col-sm-12 col-md-4">
-              <img id="user_pic" src="images/profile_pic.jpg" alt="">
-            </div>
-            <div class="col-12 col-sm-6 col-md-4">
-              <h3><u>Education</u></h3>
-              <div id="education">
-                <p>Graduated from <strong>CSU Chico</strong> December 2018 <br>
-                <strong>B.S. Computer Science</strong></p>
-                <p>Butte Community College</p>
-                <p>Paradise High School</p>
+      <nav class="nav_header">
+        <ul class="nav nav-tabs">
+          <li class="nav-item">
+            <a class="nav-link active" data-toggle="tab" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#other">Other</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Tab panes -->
+      <div class="tab-content">
+        <div class="tab-pane container active" id="projects">
+          <div class="container">
+            <br><br>
+            <section id="project_info">
+              <h2>Projects</h2><hr>
+              <div class="row">
+                <div class="col-lg-6 projects">
+                  <h2>Get Active, Go Play</h2>
+                  <p>Django web app</p>
+                  <span>URL: </span><a href="#" class="inactive">https://getactivegoplay.com</a>
+                     <strong>Not currently hosted</strong>
+                  <p>Worked on <strong>Frontend + Backend</strong></p>
+                  <p><a href="https://github.com/jrodowick/SeniorProject" target="_blank">Github repo</a></p>
+                  <p>This web app was designed to connect with people in your local
+                     area to meet up and play pick-up sports.  It uses Google Maps
+                     Javascript API and geolation to provide a map of locations to
+                     play at.</p>
+                     <img src="images/GAGP.jpg" alt="">
+                </div>
+                <div class="col-lg-6 projects">
+                  <h2>What Can I Cook?</h2>
+                  <p>Django web app</p>
+                  <span>URL: </span><a href="https://wcic.divisionc.com" target="_blank">https://wcic.divisionc.com</a>
+                  <p>Worked on <strong>Frontend</strong></p>
+                  <p><a href="https://github.com/adamjenkins1/WCIC" target="_blank">Github repo</a></p>
+                  <p>This was a school project for a software engineering class.
+                     Our group built an app to help users find recipes they can
+                     make based on ingredients they have in their kitchen.</p>
+                     <img src="images/WCIC.jpg" alt="">
+                </div>
               </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4">
-              <h3><u>Hobbies</u></h3>
-              <div id="hobbies">
-                <p><strong>Sports Fanatic</strong></p>
-                <p>I love watching and playing basketball and soccer</p>
-                <p>Lifelong fan of the</p>
-                <ul>
-                  <li><span class="sac">Sacramento Kings</span></li>
-                  <li><span class="chelsea">Chelsea FC</span></li>
-                </ul>
+              <div class="row">
+                <div class="col-lg-6 projects">
+                  <h2>Star Wars Pedia</h2>
+                  <p>Vue JS One Page Application</p>
+                  <p><a href="https://github.com/jrodowick/StarWarsPedia" target="_blank">Github Repo</a></p>
+                  <p>I started this web page to practice working with web APIs and the Vue framework.
+                     It uses the Star Wars API to display information from the entire Star Wars
+                     universe</p>
+                  <img src="images/StarWars.jpg" alt="">
+                </div>
               </div>
-            </div>
+            </section>
           </div>
-          <br>
-        </section>
+        </div>
+        <div class="tab-pane container fade" id="about">
+
+
+
+          <div class="container personal">
+            <section id="personal_info">
+              <h2>About me</h2><hr>
+              <div class="row">
+                <div class="col-12 col-sm-12 col-md-4">
+                  <img id="user_pic" src="images/profile_pic.jpg" alt="">
+                </div>
+                <div class="col-12 col-sm-6 col-md-4">
+                  <h3><u>Education</u></h3>
+                  <div id="education">
+                    <p>Graduated from <strong>CSU Chico</strong> December 2018 <br>
+                    <strong>B.S. Computer Science</strong></p>
+                    <p>Butte Community College</p>
+                    <p>Paradise High School</p>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4">
+                  <h3><u>Hobbies</u></h3>
+                  <div id="hobbies">
+                    <p><strong>Sports Fanatic</strong></p>
+                    <p>I love watching and playing basketball and soccer</p>
+                    <p>Lifelong fan of the</p>
+                    <ul>
+                      <li><span class="sac">Sacramento Kings</span></li>
+                      <li><span class="chelsea">Chelsea FC</span></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <br>
+            </section>
+          </div>
+        </div>
+        <div class="tab-pane container fade" id="other">
+
+        </div>
       </div>
-      <div class="container">
-        <br><br>
-        <section id="project_info">
-          <h2>Projects</h2><hr>
-          <div class="row">
-            <div class="col-lg-6 projects">
-              <h2>Get Active, Go Play</h2>
-              <p>Django web app</p>
-              <span>URL: </span><a href="#" class="inactive">https://getactivegoplay.com</a>
-                 <strong>Not currently hosted</strong>
-              <p>Worked on <strong>Frontend + Backend</strong></p>
-              <p><a href="https://github.com/jrodowick/SeniorProject" target="_blank">Github repo</a></p>
-              <p>This web app was designed to connect with people in your local
-                 area to meet up and play pick-up sports.  It uses Google Maps
-                 Javascript API and geolation to provide a map of locations to
-                 play at.</p>
-                 <img src="images/GAGP.jpg" alt="">
-            </div>
-            <div class="col-lg-6 projects">
-              <h2>What Can I Cook?</h2>
-              <p>Django web app</p>
-              <span>URL: </span><a href="https://wcic.divisionc.com" target="_blank">https://wcic.divisionc.com</a>
-              <p>Worked on <strong>Frontend</strong></p>
-              <p><a href="https://github.com/adamjenkins1/WCIC" target="_blank">Github repo</a></p>
-              <p>This was a school project for a software engineering class.
-                 Our group built an app to help users find recipes they can
-                 make based on ingredients they have in their kitchen.</p>
-                 <img src="images/WCIC.jpg" alt="">
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-lg-6 projects">
-              <h2>Star Wars Pedia</h2>
-              <p>Vue JS One Page Application</p>
-              <p><a href="https://github.com/jrodowick/StarWarsPedia" target="_blank">Github Repo</a></p>
-              <p>I started this web page to practice working with web APIs and the Vue framework.
-                 It uses the Star Wars API to display information from the entire Star Wars
-                 universe</p>
-              <img src="images/StarWars.jpg" alt="">
-            </div>
-          </div>
-        </section>
-      </div>
+
+
+
+
     </main>
 
     <footer id="footer">

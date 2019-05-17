@@ -7,7 +7,6 @@ body {
   background-color: #FFFFFF;
   font: 100% Helvetica, sans-serif;
   height:100%;
-  margin: 0;
 }
 
 .nav_header {
@@ -17,6 +16,12 @@ body {
 
 .nav_header > ul > li {
   font-size: 2em;
+  padding: 0 20px;
+  color: black;
+}
+
+.nav_header > ul > li > a {
+  color: black;
 }
 
 h2 {
@@ -52,6 +57,11 @@ h2 {
   height:200px;
 }
 
+.personal p, .project p {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 30px;
+}
+
 .social a {
   padding: 0px 40px;
   font-size: 20px;
@@ -71,18 +81,18 @@ h2 {
 /* END PERSONAL INFO */
 
 /* PROJECT INFO */
-.projects {
+.project {
   margin: 0 0 20px 0;
 }
 
-.projects:hover {
+.project:hover {
   -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
   -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
   -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
   box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
 }
 
-.projects img {
+.project img {
   height: auto;
   width: 100%;
 }

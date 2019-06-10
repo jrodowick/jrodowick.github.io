@@ -18,6 +18,7 @@ body {
   font-size: 2em;
   padding: 0 20px;
   color: black;
+  letter-spacing: 5px;
 }
 
 .nav_header > ul > li > a {
@@ -83,6 +84,7 @@ h2 {
 /* PROJECT INFO */
 .project {
   margin: 0 0 20px 0;
+  padding: 25px;
 }
 
 .project:hover {

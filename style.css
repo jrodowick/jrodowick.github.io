@@ -90,9 +90,8 @@ h2 {
 
 /* PROJECT INFO */
 .project {
-  margin: 0 5px 10px 5px;
+  margin-bottom: 10px;
   padding: 20px;
-  width:100%;
   background-color: #F5F5F5;
 }
 

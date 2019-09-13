@@ -16,19 +16,12 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Jacob Rodowick</title>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-139427254-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-139427254-1');
-    </script>
+    
   </head>
   <body>
-
-    <header id="page_header" class="jumbotron">
+    
+    <div class="content_wrapper">
+      <header id="page_header" class="jumbotron">
       <h1>Jacob Rodowick</h1>
       <h3>Front-end Web Developer</h3>
       <p>Here I share some projects I have worked on and a little about myself.</p>
@@ -162,14 +155,16 @@
           </div>
         </div>
         <div class="tab-pane container fade" id="other">
-          <div class="container">
-            <section>
+          <div class="container flex">
+            <div class="">
               <h2>My laptop</h2>
+            </div>
+            <div class="">
               <h2>My desktop</h2>
-            </section>
-            <section>
+            </div>
+            <div class="">
               <h2>My pets</h2>
-            </section>
+            </div>
           </div>
         </div>
       </div>
@@ -180,31 +175,34 @@
     </main>
 
     <footer id="footer">
-  		<div class="container">
-  			<div class="row text-center text-xs-center text-sm-left text-md-left">
-  				<div class="col">
-  					<h5>Tools used on this page</h5>
-  					<ul class="list-unstyled quick-links">
-  						<li><a href="https://getbootstrap.com/" target="_blank"><i class="fa fa-angle-double-right"></i>Bootstrap 4</a></li>
-  						<li><a href="https://jquery.com/" target="_blank"><i class="fa fa-angle-double-right"></i>jQuery</a></li>
-  						<li><a href="https://pages.github.com/" target="_blank"><i class="fa fa-angle-double-right"></i>Github Pages</a></li>
-  					</ul>
-  				</div>
-  			</div>
-  			<div class="row">
-  				<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
-  					<ul class="list-unstyled list-inline social text-center">
-  						<li class="list-inline-item"><a href=""><i class="fa fa-facebook"></i></a></li>
-  						<li class="list-inline-item"><a href=""><i class="fa fa-twitter"></i></a></li>
-  						<li class="list-inline-item"><a href=""><i class="fa fa-instagram"></i></a></li>
-  						<li class="list-inline-item"><a href=""><i class="fa fa-google-plus"></i></a></li>
-  						<li class="list-inline-item"><a href="" target="_blank"><i class="fa fa-envelope"></i></a></li>
-  					</ul>
-  				</div>
-  				</hr>
-  			</div>
-  		</div>
-	 </footer>
+      <div class="container">
+        <div class="row text-center text-xs-center text-sm-left text-md-left">
+          <div class="col">
+            <h5>Tools used on this page</h5>
+            <ul class="list-unstyled quick-links">
+              <li><a href="https://getbootstrap.com/" target="_blank"><i class="fa fa-angle-double-right"></i>Bootstrap 4</a></li>
+              <li><a href="https://jquery.com/" target="_blank"><i class="fa fa-angle-double-right"></i>jQuery</a></li>
+              <li><a href="https://pages.github.com/" target="_blank"><i class="fa fa-angle-double-right"></i>Github Pages</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+            <ul class="list-unstyled list-inline social text-center">
+              <li class="list-inline-item"><a href=""><i class="fa fa-facebook"></i></a></li>
+              <li class="list-inline-item"><a href=""><i class="fa fa-twitter"></i></a></li>
+              <li class="list-inline-item"><a href=""><i class="fa fa-instagram"></i></a></li>
+              <li class="list-inline-item"><a href=""><i class="fa fa-google-plus"></i></a></li>
+              <li class="list-inline-item"><a href="" target="_blank"><i class="fa fa-envelope"></i></a></li>
+            </ul>
+          </div>
+          </hr>
+        </div>
+      </div>
+   </footer>
+    </div>
+
+    
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"
             integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="

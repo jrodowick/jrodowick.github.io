@@ -13,6 +13,13 @@ main {
   background-color: #EBEBEB;
 }
 
+.content_wrapper {
+  min-height: 100vh;
+  position: relative;
+  display: block;
+  padding-bottom: 400px;
+}
+
 .nav_header {
   padding-top: 20px;
   display: flex;
@@ -100,6 +107,15 @@ h2 {
   width: 100%;
 }
 
+.flex {
+  display: flex;
+}
+
+div.flex {
+  justify-content: center;
+
+}
+
 .inactive {
   text-decoration: line-through;
 }
@@ -125,6 +141,10 @@ h2 {
 footer {
     padding: 60px 0;
     background: #007b5e;
+    position: absolute;
+    height: 400px;
+    bottom: 0;
+    width: 100%;
 }
 
 section .section-title {

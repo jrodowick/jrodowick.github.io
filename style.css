@@ -7,6 +7,7 @@ html, body {
   margin: 0;
   padding: 0;
   position: relative;
+  font-family: 'Titillium Web', sans-serif;
 }
 
 .content_wrapper {
@@ -14,51 +15,90 @@ html, body {
   position: relative;
   display: block;
   padding-bottom: 400px;
+  
 }
 
-.nav_header {
-  padding-top: 20px;
-  display: flex;
-  justify-content: center;
+.page_header {
+  background-color: #C3C7CA;
+  height: 150px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+
 }
 
-.nav_header > ul > li {
-  font-size: 2em;
-  padding: 0 20px;
+.page_nav {
+  height: inherit;
+}
+
+.menu-item {
+  display: inline;
+  position: relative;
+  font-size: 2.5vw;
+  color: grey;
+  transition-property: color;
+  transition-duration: 0.8s;
+  transition-timing-function: ease-out;
+}
+
+.menu-item:before {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  width: 0;
+  top: -3px;
+  background: #5D88A7;
+  height: 2px;
+  transition-property: width;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+}
+
+.menu-item:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  width: 0;
+  bottom: -3px;
+  background: #5D88A7;
+  height: 2px;
+  transition-property: width;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+}
+
+.menu-item:hover:before {
+  right: 0;
+  left: auto;
+  width: 100%;
+}
+
+.menu-item:hover:after {
+  left: 0;
+  right: auto;
+  width: 100%;
+}
+
+.menu-item:hover {
+   color:black;
+}
+
+.nav-pills .nav-link.active{
   color: black;
-  letter-spacing: 15px;
-  background-color: #EBEBEB;
-
+  background: none;
 }
 
-.nav_header > ul > li > a {
-  color: black;
+.navbar-brand {
+  float: right;
+  padding: 0;
 }
 
-h2 {
-  color: #477D87;
-  font-size: 2em;
+.main {
+  margin-top: 150px;
+ 
 }
-
-/* HEADER */
-.jumbotron {
-  background-image: url(images/header.jpg);
-  background-size: cover;
-  background-color: black;
-  color: white;
-  margin-bottom: 0;
-  padding-bottom: 130px;
-  text-align: center;
-}
-
-.jumbotron > h1 {
-  font-size: 4em;
-}
-
-.jumbotron > p {
-  font-size: 1.5em;
-}
-/* END HEADER */
 
 /* PERSONAL INFO */
 .personal img {
@@ -73,14 +113,6 @@ h2 {
   line-height: 30px;
 }
 
-.social a {
-  padding: 0px 40px;
-  font-size: 20px;
-}
-
-.social a:hover {
-  text-decoration: none;
-}
 
 /* END PERSONAL INFO */
 
@@ -103,38 +135,13 @@ h2 {
   width: 100%;
 }
 
-.flex {
-  display: flex;
-}
 
-div.flex {
-  justify-content: center;
 
-}
 
-.inactive {
-  text-decoration: line-through;
-}
-/* END PROJECT INFO */
-
-/* FOOTER */
-/* footer {
-  text-align: center;
-  background: -webkit-linear-gradient(top,#D1CECE 44%, #A09F9F 100%);
-  padding: 30px 0;
-  margin: 0;
-  font-size: 1em;
-  width: 100%;
-} */
-
-.list {
-  list-style-type: none;
-}
 
 
 /* Footer */
-footer {
-    padding: 60px 0;
+.page_footer {
     background: #007b5e;
     position: absolute;
     height: 200px;

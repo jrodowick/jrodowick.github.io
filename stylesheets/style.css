@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.content_wrapper {
+  min-height: 100vh;
+  position: relative;
+  display: block;
+  padding-bottom: 400px;
+  
+}
+
+.page_header {
+  background-color: #C3C7CA;
+  height: 150px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+
+}
+
+.page_nav {
+  height: inherit;
+}
+
+.menu-item {
+  display: inline;
+  position: relative;
+  font-size: 2.3vw;
+  color: black;
+}
+
+.menu-item:before {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  width: 0;
+  top: -3px;
+  background: #5D88A7;
+  height: 2px;
+  transition-property: width;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+}
+
+.menu-item:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  width: 0;
+  bottom: -3px;
+  background: #5D88A7;
+  height: 2px;
+  transition-property: width;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+}
+
+.menu-item:hover:before {
+  right: 0;
+  left: auto;
+  width: 100%;
+}
+
+.menu-item:hover:after {
+  left: 0;
+  right: auto;
+  width: 100%;
+}
+
+.menu-item:hover {
+   color: black;
+}
+
+.nav-pills .nav-link.active{
+  color: white;
+  background: black;
+  transition-property: background;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+}
+
+.navbar-brand {
+  float: right;
+  padding: 0;
+}
+
+.main {
+  margin-top: 150px;
+ 
+}
+
+/* PERSONAL INFO */
+.personal img {
+  border: 5px solid lightblue;
+  border-radius: 100%;
+  width:200px;
+  height:200px;
+}
+
+.personal p, .project p {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 30px;
+}
+
+
+/* END PERSONAL INFO */
+
+/* PROJECT INFO */
+.project {
+  margin-bottom: 10px;
+  padding: 20px;
+  background-color: #F5F5F5;
+}
+
+.project:hover {
+  -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+  -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+  -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+  box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+
+.project img {
+  height: auto;
+  width: 100%;
+}
+
+
+
+
+
+
+/* Footer */
+.page_footer {
+    background: #007b5e;
+    position: absolute;
+    height: 200px;
+    bottom: 0;
+    width: 100%;
+}
+

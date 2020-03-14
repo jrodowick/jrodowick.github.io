@@ -3,20 +3,19 @@
 }
 
 html, body {
+	font-family: 'Avenir', sans-serif;
 	height: 100%;
 	padding: 0;
 	margin: 0;
-	font-family: 'Avenir', sans-serif;
 }
-
 
 /*BOOTSTRAP CONTAINER*/
 .container {
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 @media (min-width: 576px) {

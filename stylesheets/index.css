@@ -6,40 +6,8 @@ html, body {
 	height: 100%;
 	padding: 0;
 	margin: 0;
-	background-color: #FBFAFA;
 	font-family: 'Avenir', sans-serif;
 }
-
-.page-header {
-	width: 100%;
-	height: 8em;
-	background-color: #080A0C;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-
-.page-nav > ul {
-	display: flex;
-	justify-content: center;
-	list-style: none;
-	margin: 0;
-}
-
-.page-nav > ul  > li {
-	padding: 0 25px;
-	font-size: 1.5em;
-}
-
-.page-nav > ul > li > a:hover {
-	background-color: grey;
-}
-
-.page-nav > ul > li > a { 
-	text-decoration: none;
-	color: white;
- }
-
 
 
 /*BOOTSTRAP CONTAINER*/
